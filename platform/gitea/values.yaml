@@ -37,3 +37,14 @@ gitea:
         ENABLED: false
       webhook:
         ALLOWED_HOST_LIST: private
+  postgresql-ha:
+    postgresql:
+      image:
+        repository: bitnamilegacy/postgresql-repmgr
+    pgpool:
+      image:
+        repository: bitnamilegacy/pgpool
+  redis-cluster:
+    image:
+      repository: bitnamilegacy/redis-cluster
+
