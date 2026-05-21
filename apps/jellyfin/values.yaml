@@ -57,42 +57,42 @@ app-template:
       annotations:
         cert-manager.io/cluster-issuer: letsencrypt-prod
       hosts:
-        - host: &jellyfinHost jellyfin.khuedoan.com
+        - host: &jellyfinHost jellyfin.192.168.86.224.nip.io
           paths:
             - path: /
               pathType: Prefix
               service:
                 name: main
                 port: http
-        - host: &transmissionHost transmission.khuedoan.com
+        - host: &transmissionHost transmission.192.168.86.224.nip.io
           paths:
             - path: /
               pathType: Prefix
               service:
                 name: main
                 port: transmission
-        - host: &prowlarrHost prowlarr.khuedoan.com
+        - host: &prowlarrHost prowlarr.192.168.86.224.nip.io
           paths:
             - path: /
               pathType: Prefix
               service:
                 name: main
                 port: prowlarr
-        - host: &radarrHost radarr.khuedoan.com
+        - host: &radarrHost radarr.192.168.86.224.nip.io
           paths:
             - path: /
               pathType: Prefix
               service:
                 name: main
                 port: radarr
-        - host: &sonarrHost sonarr.khuedoan.com
+        - host: &sonarrHost sonarr.192.168.86.224.nip.io
           paths:
             - path: /
               pathType: Prefix
               service:
                 name: main
                 port: sonarr
-        - host: &jellyseerrHost jellyseerr.khuedoan.com
+        - host: &jellyseerrHost jellyseerr.192.168.86.224.nip.io
           paths:
             - path: /
               pathType: Prefix

@@ -184,4 +184,4 @@ client.
 
 [Headscale](https://headscale.net) is a self-hosted implementation of the
 Tailscale control server that does not require a third-party account. To set it
-up, take a look at the changes proposed by [this PR](https://github.com/khuedoan/homelab/pull/190).
+up, take a look at the changes proposed by [this PR](https://github.com/lvldigital/homelab/pull/190).

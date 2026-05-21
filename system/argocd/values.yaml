@@ -1,6 +1,6 @@
 argo-cd:
   global:
-    domain: argocd.khuedoan.com
+    domain: argocd.192.168.86.224.nip.io
   configs:
     params:
       server.insecure: true
