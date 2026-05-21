@@ -32,6 +32,6 @@
       kubernetes.core.k8s:
         resource_definition: "{{ argocd_manifests.stdout }}"
         apply: true
-        force: true
         server_side_apply:
           field_manager: argocd-controller
+          force_conflicts: true
