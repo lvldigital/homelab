@@ -127,6 +127,10 @@ app-template:
                 href: https://speedtest.192.168.86.224.nip.io
                 description: Internal network speed test
                 icon: openspeedtest.png
+            - Plausible:
+                href: https://plausible.192.168.86.224.nip.io
+                description: Privacy-focused analytics
+                icon: plausible.svg
         bookmarks.yaml: |
           - Homelab:
             - Documentation:
