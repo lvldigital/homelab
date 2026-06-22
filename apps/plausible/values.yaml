@@ -25,6 +25,11 @@ plausible-analytics:
         enabled: true
         size: 10Gi
         storageClass: standard-rwo
+      resources:
+        limits:
+          memory: 512Mi
+        requests:
+          memory: 256Mi
 
   clickhouse:
     enabled: true
@@ -32,3 +37,8 @@ plausible-analytics:
       enabled: true
       size: 20Gi
       storageClass: standard-rwo
+    resources:
+      limits:
+        memory: 1500Mi
+      requests:
+        memory: 512Mi
