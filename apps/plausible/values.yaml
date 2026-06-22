@@ -2,6 +2,8 @@ plausible-analytics:
   baseURL: https://plausible.192.168.86.224.nip.io
   secretKeyBase: "FqdHvCieEUPSWijlNvYfd8zDF+JG7o2wK0L7bOTS47VLG5rIEZ+dQQxi2IMnSieb"
   totpVaultKey: "wRxQDGzyWPzbox2LENyPjeutAzqHn/5hHXMbO8rTtz4="
+  databaseURL: "postgres://postgres:postgres@plausible-postgresql:5432/plausible_db"
+  clickhouseDatabaseURL: "http://clickhouse:password@plausible-clickhouse:8123/plausible_events_db"
 
   ingress:
     enabled: true
