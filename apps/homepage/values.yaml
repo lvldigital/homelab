@@ -64,44 +64,16 @@ app-template:
                 href: https://chat.192.168.86.224.nip.io
                 description: Chat client
                 icon: element.svg
-            - Jellyfin:
-                href: https://jellyfin.192.168.86.224.nip.io
-                description: Media system (movies, music, etc.)
-                icon: jellyfin.svg
-            - Jellyseerr:
-                href: https://jellyseerr.192.168.86.224.nip.io
-                description: Request media
-                icon: jellyseerr.svg
             - Paperless:
                 href: https://paperless.192.168.86.224.nip.io
                 description: Document management system
                 icon: paperless.svg
           - Management:
-            - Transmission:
-                href: https://transmission.192.168.86.224.nip.io
-                description: Bittorrent client
-                icon: transmission.svg
-            - Prowlarr:
-                href: https://prowlarr.192.168.86.224.nip.io
-                description: Indexer manager
-                icon: prowlarr.svg
-            - Radarr:
-                href: https://radarr.192.168.86.224.nip.io
-                description: Movie manager
-                icon: radarr.svg
-            - Sonarr:
-                href: https://sonarr.192.168.86.224.nip.io
-                description: TV show manager
-                icon: sonarr.svg
             - Kanidm:
                 href: https://auth.192.168.86.224.nip.io
                 description: Identity management
                 icon: https://auth.192.168.86.224.nip.io/pkg/img/logo-square.svg
           - Development:
-            - Gitea:
-                href: https://git.192.168.86.224.nip.io
-                description: Git forge
-                icon: gitea.svg
             - Woodpecker:
                 href: https://ci.192.168.86.224.nip.io
                 description: Continuous integration
