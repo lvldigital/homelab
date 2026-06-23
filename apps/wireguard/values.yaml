@@ -61,8 +61,8 @@ app-template:
 
                   [Peer]
                   # homelab
-                  PublicKey = sSAZS1Z3vB7Wx8e2yVqXfeHjgWTa80wnSYoma3mZkiU=
-                  AllowedIPs = 172.16.0.1/32, 192.168.1.100/32, 192.168.1.224/27
+                  PublicKey = miBCQIPRbbfJF5bVQPJ1eT7CY/NOd7WR7VMjKrZBDWI=
+                  AllowedIPs = 172.16.0.1/32, 192.168.1.100/32, 192.168.86.224/27
 
                   [Peer]
                   # horus
@@ -87,3 +87,7 @@ app-template:
                   # khuedoan-phone
                   PublicKey = nITHFdgTkNZOTWeSWqnGXjgwlCJMKRCnnUsjMx2yp2U=
                   AllowedIPs = 172.16.0.12/32
+                  [Peer]
+                  # user-device
+                  PublicKey = /2yRaPErIwluyggkW3XQCjdOjQwli885CZgDWQFz/jU=
+                  AllowedIPs = 172.16.0.13/32
