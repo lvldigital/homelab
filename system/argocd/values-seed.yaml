@@ -21,6 +21,10 @@ argocd-apps:
               - path: system/*
               - path: platform/*
               - path: apps/*
+              - path: platform/gitea
+                exclude: true
+              - path: apps/jellyfin
+                exclude: true
       template:
         spec:
           source:
