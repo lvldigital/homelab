@@ -103,6 +103,10 @@ app-template:
                 href: https://plausible.192.168.86.224.nip.io
                 description: Privacy-focused analytics
                 icon: plausible.svg
+            - Umami:
+                href: https://umami.192.168.86.224.nip.io
+                description: Simple, fast, privacy-focused analytics
+                icon: umami.svg
         bookmarks.yaml: |
           - Homelab:
             - Documentation:
