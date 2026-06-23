@@ -20,6 +20,7 @@ app-template:
             POSTGRES_USER: umami
             POSTGRES_PASSWORD: umami_password
             POSTGRES_DB: umami
+            PGDATA: /var/lib/postgresql/data/pgdata
   service:
     main:
       controller: main
