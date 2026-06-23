@@ -89,5 +89,5 @@ app-template:
                   AllowedIPs = 172.16.0.12/32
                   [Peer]
                   # user-device
-                  PublicKey = /2yRaPErIwluyggkW3XQCjdOjQwli885CZgDWQFz/jU=
+                  PublicKey = XNsA/lZhy8252yliiRkrusQ2DTzat5AS0txLcjLcIDw=
                   AllowedIPs = 172.16.0.13/32
